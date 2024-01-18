@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center|center_vertical"
+        android:text="Asteroides"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:translationX="30dp"
+        android:translationY="250dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Jugar"
+        android:translationX="30dp"
+        android:translationY="250dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Configurar"
+        android:translationX="30dp"
+        android:translationY="250dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Acerca de"
+        android:translationX="30dp"
+        android:translationY="250dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Salir"
+        android:translationX="30dp"
+        android:translationY="250dp" />
+</LinearLayout>
